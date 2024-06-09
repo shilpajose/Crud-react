@@ -245,8 +245,9 @@ function Auth({ insideRegister }) {
                           <input type="checkbox" style={{ marginRight: '5px' }} /><label style={{ marginRight: '95px' }}>Remember me</label>
                           {/* <Link to="/forgot-password">Forgot password?</Link> */}
                         </div>
-                        <Button variant="primary" onClick={handleGoogleSignIn}>Sign in with Google
-                          <img src="https://i.postimg.cc/7hTSYK3b/g-removebg-preview.png" alt="" style={{ width: '30px', height: '30px' }} className='ms-3' /></Button>
+                        {/* <Button variant="primary" onClick={handleGoogleSignIn}>Sign in with Google
+                          <img src="https://i.postimg.cc/7hTSYK3b/g-removebg-preview.png" alt="" style={{ width: '30px', height: '30px' }} className='ms-3' />
+                        </Button> */}
                       </div>
                   }
                 </Form>
